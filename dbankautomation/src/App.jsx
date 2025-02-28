@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import contractABI from "./contract/DBank.json"; // Ensure ABI is added in your frontend project
 import "./App.css";
-const contractAddress = "0x648932de455313BF9603dcCC57BDebf059d8f8B9"; // Replace with deployed contract address
+const contractAddress = "0x648932de455313BF9603dcCC57BDebf059d8f8B9";
 
 export default function App() {
     const [account, setAccount] = useState(null);
